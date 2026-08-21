@@ -1,0 +1,684 @@
+{
+  "title": "Services - Jansen & Vorster",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "OUR SERVICES",
+      "styles": {
+        "fontSize": "34.16px",
+        "fontWeight": "600",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "47.824px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "padding": "0px 0px 10px",
+        "paddingBottom": "10px",
+        "margin": "32px 0px",
+        "width": "1110px",
+        "height": "57.8125px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      }
+    },
+    {
+      "tag": "H4",
+      "text": "Social Link",
+      "styles": {
+        "fontSize": "18.75px",
+        "fontWeight": "600",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "18px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundPosition": "0% 0%",
+        "padding": "0px 0px 18px",
+        "paddingBottom": "18px",
+        "margin": "0px 0px 25px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(255, 255, 255)",
+        "position": "relative",
+        "opacity": "1"
+      }
+    },
+    {
+      "tag": "H4",
+      "text": "Contact Info",
+      "styles": {
+        "fontSize": "18.75px",
+        "fontWeight": "600",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "18px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundPosition": "0% 0%",
+        "padding": "0px 0px 18px",
+        "paddingBottom": "18px",
+        "margin": "0px 0px 25px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(255, 255, 255)",
+        "position": "relative",
+        "opacity": "1"
+      }
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "OUR SERVICESJansen Vorster Optometrists offers the following services.1. Eye ScreeningAn eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:– Driver’s license screenings– Forklift Licence ScreeningsFor any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.2. Eye Test / ExaminationA comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers & children (7 to 18 years) to monitor ocular health.An eye test will typically consist of the following:– Case History– Ocular health check including a glaucoma screening– Fundus investigation – We are equipped with handheld fundus cameras to assist with assessing retinal health. As such many systemic diseases have ocular manifestations.– Corneal Topography (if required) – Diagnosis of corneal disease i.e. Keratoconus and/or virtual fittings of contact lenses.– Refraction – Determining the prescription for possible spectacles or contact lenses.– Binocular Vision Testing– Feedback on the obtained test results & advice on all possible corrective options available. This also includes referrals to eye specialists when required.– Patient education on different lens attributes.– Assistance in frame selection, lenses and quotations.3. Contact Lens ConsultationA contact lens consultation will typically consist of the following:– Case History– Assessment of tear function– Conjunctival and corneal check– Staining with fluorescein to assess eye health– Discussion of options available– Fitting of trial lenses– Instruction on caring for your eyes and lenses– A trial period to give you time to adapt to your lenses4. Hard Contact Lenses– The need for hard contact lenses will be determined during a contact lens consultation– This service is mainly provided from the Melkbosstrand branch– A thorough discussion will take place before ordering a trial set of lenses– Multiple consultations might be necessary in order to finalise the final lens fitting5. On-Site Lens LaboratoryJansen Vorster Optometrists are fortunate to have an on-site optical laboratory at the Melkbosstrand practice where our technician/optical dispenser is available to provide the following services:– Fitting of spectacle lenses– Spectacle maintenance and repairs– Personal assistance with specific lens and frame selection6. Low VisionLow Vision is our leading area of expertise.We supply a wide range of optical magnifiers from Eschenbach and Schweizer. All magnifiers are available at the Melkbosstrand practice for anyone to view.We can also fit and supply Bioptics, also known as Bioptic telescopes, which is a term for a pair of vision-enhancement lenses with telescopes that have extreme magnification. Bioptic telescopes are used to improve distance vision for people with impaired eyesight.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "width": "1120px",
+        "height": "1558.81px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "relative",
+        "opacity": "1"
+      },
+      "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">OUR SERVICES</span></h1><p>Jansen Vorster Optometrists offers the following services.</p><p><strong>1. Eye Screening</strong></p><p>An eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.</p><p>Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:</p><p>– Driver’s license screenings<br>– Forklift Licence Screenings</p><p>For any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.</p><hr><p><strong>2. Eye Test / Examination</strong></p><p>A com"
+    },
+    {
+      "text": "Jansen Vorster Optometrists offers the following services.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Jansen Vorster Optometrists offers the following services."
+    },
+    {
+      "text": "1. Eye Screening",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<strong>1. Eye Screening</strong>"
+    },
+    {
+      "text": "An eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "An eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss."
+    },
+    {
+      "text": "Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:"
+    },
+    {
+      "text": "– Driver’s license screenings– Forklift Licence Screenings",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "48px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "– Driver’s license screenings<br>– Forklift Licence Screenings"
+    },
+    {
+      "text": "For any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "For any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment."
+    },
+    {
+      "text": "2. Eye Test / Examination",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<strong>2. Eye Test / Examination</strong>"
+    },
+    {
+      "text": "A comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers & children (7 to 18 years) to monitor ocular health.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "A comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers &amp; children (7 to 18 years) to monitor ocular health."
+    },
+    {
+      "text": "An eye test will typically consist of the following:",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "An eye test will typically consist of the following:"
+    },
+    {
+      "text": "– Case History– Ocular health check including a glaucoma screening– Fundus investigation – We are equipped with handheld fundus cameras to assist with assessing retinal health. As such many systemic diseases have ocular manifestations.– Corneal Topography (if required) – Diagnosis of corneal disease i.e. Keratoconus and/or virtual fittings of contact lenses.– Refraction – Determining the prescription for possible spectacles or contact lenses.– Binocular Vision Testing– Feedback on the obtained test results & advice on all possible corrective options available. This also includes referrals to eye specialists when required.– Patient education on different lens attributes.– Assistance in frame selection, lenses and quotations.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "216px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "– Case History<br>– Ocular health check including a glaucoma screening<br>– Fundus investigation – We are equipped with handheld fundus cameras to assist with assessing retinal health. As such many systemic diseases have ocular manifestations.<br>– Corneal Topography (if required) – Diagnosis of corneal disease i.e. Keratoconus and/or virtual fittings of contact lenses.<br>– Refraction – Determining the prescription for possible spectacles or contact lenses.<br>– Binocular Vision Testing<br>– Feedback on the obtained test results &amp; advice on all possible corrective options available. This also includes referrals to eye specialists when required.<br>– Patient education on different lens attributes.<br>– Assistance in frame selection, lenses and quotations."
+    },
+    {
+      "text": "3. Contact Lens Consultation",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<strong>3. Contact Lens Consultation</strong>"
+    },
+    {
+      "text": "A contact lens consultation will typically consist of the following:",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "A contact lens consultation will typically consist of the following:"
+    },
+    {
+      "text": "– Case History– Assessment of tear function– Conjunctival and corneal check– Staining with fluorescein to assess eye health– Discussion of options available– Fitting of trial lenses– Instruction on caring for your eyes and lenses– A trial period to give you time to adapt to your lenses",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "192px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "– Case History<br>– Assessment of tear function<br>– Conjunctival and corneal check<br>– Staining with fluorescein to assess eye health<br>– Discussion of options available<br>– Fitting of trial lenses<br>– Instruction on caring for your eyes and lenses<br>– A trial period to give you time to adapt to your lenses"
+    },
+    {
+      "text": "4. Hard Contact Lenses",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<strong>4. Hard Contact Lenses</strong>"
+    },
+    {
+      "text": "– The need for hard contact lenses will be determined during a contact lens consultation– This service is mainly provided from the Melkbosstrand branch– A thorough discussion will take place before ordering a trial set of lenses– Multiple consultations might be necessary in order to finalise the final lens fitting",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "96px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "– The need for hard contact lenses will be determined during a contact lens consultation<br>– This service is mainly provided from the Melkbosstrand branch<br>– A thorough discussion will take place before ordering a trial set of lenses<br>– Multiple consultations might be necessary in order to finalise the final lens fitting"
+    },
+    {
+      "text": "5. On-Site Lens Laboratory",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<strong>5. On-Site Lens Laboratory</strong>"
+    },
+    {
+      "text": "Jansen Vorster Optometrists are fortunate to have an on-site optical laboratory at the Melkbosstrand practice where our technician/optical dispenser is available to provide the following services:",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "48px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Jansen Vorster Optometrists are fortunate to have an on-site optical laboratory at the Melkbosstrand practice where our technician/optical dispenser is available to provide the following services:"
+    },
+    {
+      "text": "– Fitting of spectacle lenses– Spectacle maintenance and repairs– Personal assistance with specific lens and frame selection",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "72px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "– Fitting of spectacle lenses<br>– Spectacle maintenance and repairs<br>– Personal assistance with specific lens and frame selection"
+    },
+    {
+      "text": "6. Low Vision",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<strong>6. Low Vision</strong>"
+    },
+    {
+      "text": "Low Vision is our leading area of expertise.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Low Vision is our leading area of expertise."
+    },
+    {
+      "text": "We supply a wide range of optical magnifiers from Eschenbach and Schweizer. All magnifiers are available at the Melkbosstrand practice for anyone to view.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "We supply a wide range of optical magnifiers from Eschenbach and Schweizer. All magnifiers are available at the Melkbosstrand practice for anyone to view."
+    },
+    {
+      "text": "We can also fit and supply Bioptics, also known as Bioptic telescopes, which is a term for a pair of vision-enhancement lenses with telescopes that have extreme magnification. Bioptic telescopes are used to improve distance vision for people with impaired eyesight.",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "1110px",
+        "height": "48px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "We can also fit and supply Bioptics, also known as Bioptic telescopes, which is a term for a pair of vision-enhancement lenses with telescopes that have extreme magnification. Bioptic telescopes are used to improve distance vision for people with impaired eyesight."
+    }
+  ],
+  "sections": [
+    {
+      "i": 0,
+      "tag": "section",
+      "id": null,
+      "classes": "elementor-section elementor-top-section elementor-element elementor-element-7323091 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+      "rect": {
+        "top": 100,
+        "height": 1579,
+        "width": 1140
+      },
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(111, 121, 130)",
+        "backgroundPosition": "0% 0%",
+        "width": "1140px",
+        "height": "1578.81px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(111, 121, 130)",
+        "position": "relative",
+        "opacity": "1"
+      },
+      "textPreview": "OUR SERVICESJansen Vorster Optometrists offers the following services.1. Eye ScreeningAn eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.Jansen Vorster Optometrists offer visual screenings to",
+      "html": "\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1fcd3ea\" data-id=\"1fcd3ea\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-3f92225 elementor-widget elementor-widget-text-editor\" data-id=\"3f92225\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">OUR SERVICES</span></h1><p>Jansen Vorster Optometrists offers the following services.</p><p><strong>1. Eye Screening</strong></p><p>An eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.</p><p>Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:</p><p>– Driver’s license screenings<br>– Forklift Licence Screenings</p><p>For any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.</p><hr><p><strong>2. Eye Test / Examination</strong></p><p>A comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers &amp; children (7 to 18 years) to monitor ocular health.</p><p>An eye test will typically "
+    },
+    {
+      "i": 1,
+      "tag": "footer",
+      "id": null,
+      "classes": "footer-five",
+      "rect": {
+        "top": 1779,
+        "height": 80,
+        "width": 1440
+      },
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(111, 121, 130)",
+        "backgroundPosition": "0% 0%",
+        "width": "1440px",
+        "height": "80px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(111, 121, 130)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "textPreview": "Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud. Social Link Facebook Instagram Linkedin Pinterest Behance Contact Info 25 Bedford St. New York City, N.Y. United States Of America +88-017812-3",
+      "html": "\n            <div class=\"footer-top\">\n            <div class=\"container\">\n                <div class=\"row footer_sidebar\">\n                    <div id=\"about_us-1\" class=\"widget footer-widget col-xs-6 col-sm-6 col-md-3 wow fadeIn widget1 about_us_widget animated\" style=\"visibility: visible; animation-name: fadeIn;\">        <a href=\"https://jansenvorster.co.za/\" class=\"logo\">\n            <img src=\"http://droitthemes.com/wp/appart/wp-content/uploads/2018/05/Logo_1.png\" alt=\"Jansen &amp; Vorster\">\n        </a>\n        <p> Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud. </p>\n        <ul class=\"nav social_icon row m0\">\n                        \n            \n            \n            \n            \n            \n                    </ul>\n        </div><div id=\"social_site_links-1\" class=\"widget footer-widget col-xs-6 col-sm-6 col-md-3 wow fadeIn widget4 widget_social animated\" style=\"visibility: visible; animation-name: fadeIn;\"><h4 class=\"widget_title_two\">Social Link</h4>\t\t<ul class=\"social-icon\">\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-facebook\"></i>Facebook</a></li>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-instagram\"></i> Instagram </a></li>\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-linkedin\"></i> Linkedin </a></li>\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-pinterest\"></i> Pinterest </a></li>\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-behance\"></i> Behance </a></li>\n\t\t"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://jansenvorster.co.za/wp-content/uploads/2023/07/jv.logo_.png",
+      "alt": "Jansen & Vorster",
+      "w": 300,
+      "h": 70,
+      "styles": {
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundPosition": "0% 0%",
+        "width": "300px",
+        "height": "70px",
+        "display": "inline",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(0, 0, 0)",
+        "position": "static",
+        "opacity": "1"
+      }
+    },
+    {
+      "src": "https://jansenvorster.co.za/wp-content/uploads/2023/07/jv.logo_-1.png",
+      "alt": "Jansen & Vorster",
+      "w": 300,
+      "h": 70,
+      "styles": {
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundPosition": "0% 0%",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(0, 0, 0)",
+        "position": "static",
+        "opacity": "1"
+      }
+    }
+  ],
+  "backgroundImages": [],
+  "iconBoxes": [],
+  "forms": [],
+  "lists": [],
+  "banner": {
+    "classes": "elementor-section elementor-top-section elementor-element elementor-element-7323091 elementor-section-boxed elementor-se",
+    "styles": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Poppins, sans-serif",
+      "lineHeight": "24px",
+      "color": "rgb(111, 121, 130)",
+      "backgroundPosition": "0% 0%",
+      "width": "1140px",
+      "height": "1578.81px",
+      "display": "block",
+      "flexDirection": "row",
+      "textAlign": "left",
+      "border": "0px none rgb(111, 121, 130)",
+      "position": "relative",
+      "opacity": "1"
+    },
+    "text": "OUR SERVICESJansen Vorster Optometrists offers the following services.1. Eye ScreeningAn eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye cond",
+    "html": "\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1fcd3ea\" data-id=\"1fcd3ea\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-3f92225 elementor-widget elementor-widget-text-editor\" data-id=\"3f92225\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">OUR SERVICES</span></h1><p>Jansen Vorster Optometrists offers the following services.</p><p><strong>1. Eye Screening</strong></p><p>An eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.</p><p>Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:</p><p>– Driver’s license screenings<br>– Forklift Licence Screenings</p><p>For any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.</p><hr><p><strong>2. Eye Test / Examination</strong></p><p>A comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers &amp; children (7 to 18 years) to monitor ocular health.</p><p>An eye test will typically consist of the following:</p><p>– Case History<br>– Ocular health check including a glaucoma screening<br>– Fundus investigation – We are equipped with handheld fundus cameras to assist with assessing retinal health. As such many systemic diseases have ocular manifestations.<br>– Corneal Topography (if required) – Diagnosis of corneal disease i.e. Keratoconus and/or virtual fittings of contact lenses.<br>– Refraction – Determining the prescription for possible spectacles or contact lenses.<br>– "
+  },
+  "bodyText": "OUR SERVICESJansen Vorster Optometrists offers the following services.1. Eye ScreeningAn eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:– Driver’s license screenings– Forklift Licence ScreeningsFor any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.2. Eye Test / ExaminationA comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers & children (7 to 18 years) to monitor ocular health.An eye test will typically consist of the following:– Case History– Ocular health check including a glaucoma screening– Fundus investigation – We are equipped with handheld fundus cameras to assist with assessing retinal health. As such many systemic diseases have ocular manifestations.– Corneal Topography (if required) – Diagnosis of corneal disease i.e. Keratoconus and/or virtual fittings of contact lenses.– Refraction – Determining the prescription for possible spectacles or contact lenses.– Binocular Vision Testing– Feedback on the obtained test results & advice on all possible corrective options available. This also includes referrals to eye specialists when required.– Patient education on different lens attributes.– Assistance in frame selection, lenses and quotations.3. Contact Lens ConsultationA contact lens consultation will typically consist of the following:– Case History– Assessment of tear function– Conjunctival and corneal check– Staining with fluorescein to assess eye health– Discussion of options available– Fitting of trial lenses– Instruction on caring for your eyes and lenses– A trial period to give you time to adapt to your lenses4. Hard Contact Lenses– The need for hard contact lenses will be determined during a contact lens consultation– This service is mainly provided from the Melkbosstrand branch– A thorough discussion will take place before ordering a trial set of lenses– Multiple consultations might be necessary in order to finalise the final lens fitting5. On-Site Lens LaboratoryJansen Vorster Optometrists are fortunate to have an on-site optical laboratory at the Melkbosstrand practice where our technician/optical dispenser is available to provide the following services:– Fitting of spectacle lenses– Spectacle maintenance and repairs– Personal assistance with specific lens and frame selection6. Low VisionLow Vision is our leading area of expertise.We supply a wide range of optical magnifiers from Eschenbach and Schweizer. All magnifiers are available at the Melkbosstrand practice for anyone to view.We can also fit and supply Bioptics, also known as Bioptic telescopes, which is a term for a pair of vision-enhancement lenses with telescopes that have extreme magnification. Bioptic telescopes are used to improve distance vision for people with impaired eyesight.",
+  "mainHtml": "\n\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7323091 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"7323091\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1fcd3ea\" data-id=\"1fcd3ea\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-3f92225 elementor-widget elementor-widget-text-editor\" data-id=\"3f92225\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">OUR SERVICES</span></h1><p>Jansen Vorster Optometrists offers the following services.</p><p><strong>1. Eye Screening</strong></p><p>An eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.</p><p>Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:</p><p>– Driver’s license screenings<br>– Forklift Licence Screenings</p><p>For any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.</p><hr><p><strong>2. Eye Test / Examination</strong></p><p>A comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers &amp; children (7 to 18 years) to monitor ocular health.</p><p>An eye test will typically consist of the following:</p><p>– Case History<br>– Ocular health check including a glaucoma screening<br>– Fundus investigation – We are equipped with handheld fundus cameras to assist with assessing retinal health. As such many systemic diseases have ocular manifestations.<br>– Corneal Topography (if required) – Diagnosis of corneal disease i.e. Keratoconus and/or virtual fittings of contact lenses.<br>– Refraction – Determining the prescription for possible spectacles or contact lenses.<br>– Binocular Vision Testing<br>– Feedback on the obtained test results &amp; advice on all possible corrective options available. This also includes referrals to eye specialists when required.<br>– Patient education on different lens attributes.<br>– Assistance in frame selection, lenses and quotations.</p><hr><p><strong>3. Contact Lens Consultation</strong></p><p>A contact lens consultation will typically consist of the following:</p><p>– Case History<br>– Assessment of tear function<br>– Conjunctival and corneal check<br>– Staining with fluorescein to assess eye health<br>– Discussion of options available<br>– Fitting of trial lenses<br>– Instruction on caring for your eyes and lenses<br>– A trial period to give you time to adapt to your lenses</p><hr><p><strong>4. Hard Contact Lenses</strong></p><p>– The need for hard contact lenses will be determined during a contact lens consultation<br>– This service is mainly provided from the Melkbosstrand branch<br>– A thorough discussion will take place before ordering a trial set of lenses<br>– Multiple consultations might be necessary in order to finalise the final lens fitting</p><hr><p><strong>5. On-Site Lens Laboratory</strong></p><p>Jansen Vorster Optometrists are fortunate to have an on-site optical laboratory at the Melkbosstrand practice where our technician/optical dispenser is available to provide the following services:</p><p>– Fitting of spectacle lenses<br>– Spectacle maintenance and repairs<br>– Personal assistance with specific lens and frame selection</p><hr><p><strong>6. Low Vision</strong></p><p>Low Vision is our leading area of expertise.</p><p>We supply a wide range of optical magnifiers from Eschenbach and Schweizer. All magnifiers are available at the Melkbosstrand practice for anyone to view.</p><p>We can also fit and supply Bioptics, also known as Bioptic telescopes, which is a term for a pair of vision-enhancement lenses with telescopes that have extreme magnification. Bioptic telescopes are used to improve distance vision for people with impaired eyesight.</p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t"
+}

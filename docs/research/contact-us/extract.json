@@ -1,0 +1,628 @@
+{
+  "title": "Contact Us - Jansen & Vorster",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "CONTACT US",
+      "styles": {
+        "fontSize": "34.16px",
+        "fontWeight": "600",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "47.824px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "padding": "0px 0px 10px",
+        "paddingBottom": "10px",
+        "margin": "32px 0px",
+        "width": "1120px",
+        "height": "57.8125px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      }
+    },
+    {
+      "tag": "H4",
+      "text": "Social Link",
+      "styles": {
+        "fontSize": "18.75px",
+        "fontWeight": "600",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "18px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundPosition": "0% 0%",
+        "padding": "0px 0px 18px",
+        "paddingBottom": "18px",
+        "margin": "0px 0px 25px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(255, 255, 255)",
+        "position": "relative",
+        "opacity": "1"
+      }
+    },
+    {
+      "tag": "H4",
+      "text": "Contact Info",
+      "styles": {
+        "fontSize": "18.75px",
+        "fontWeight": "600",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "18px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundPosition": "0% 0%",
+        "padding": "0px 0px 18px",
+        "paddingBottom": "18px",
+        "margin": "0px 0px 25px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(255, 255, 255)",
+        "position": "relative",
+        "opacity": "1"
+      }
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "ATLANTISTel: 021 572 6436Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349Email: atlantis@jansenvorster.co.zaBusiness HoursMonday – Thursday: 09h00-18h00Friday: 09h00-18h00Saturday: 09h00-17h00Sunday’s & Public Holidays: Closed",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "width": "359.984px",
+        "height": "728px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "relative",
+        "opacity": "1"
+      },
+      "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"color: #000000;\"><strong>ATLANTIS</strong></span></p><p>Tel: 021 572 6436</p><p>Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349</p><p>Email: <a href=\"mailto:atlantis@jansenvorster.co.za\">atlantis@jansenvorster.co.za</a></p><p><span style=\"color: #000000;\"><strong>Business Hours</strong></span></p><p>Monday – Thursday: 09h00-18h00</p><p>Friday: 09h00-18h00</p><p>Saturday: 09h00-17h00</p><p>Sunday’s &amp; Public Holidays: Closed</p><hr><p>&nbsp;</p><p><iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.604013474499!2d18.490657815145465!3d-33.56366338074165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dccec41438be6bf%3A0xe3c754976e014592!2sAtlantis+City+Centre!5"
+    },
+    {
+      "text": "Tel: 021 572 6436",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Tel: 021 572 6436"
+    },
+    {
+      "text": "Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "48px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349"
+    },
+    {
+      "text": "Email: atlantis@jansenvorster.co.za",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Email: <a href=\"mailto:atlantis@jansenvorster.co.za\">atlantis@jansenvorster.co.za</a>"
+    },
+    {
+      "text": "Business Hours",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<span style=\"color: #000000;\"><strong>Business Hours</strong></span>"
+    },
+    {
+      "text": "Monday – Thursday: 09h00-18h00",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Monday – Thursday: 09h00-18h00"
+    },
+    {
+      "text": "Friday: 09h00-18h00",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Friday: 09h00-18h00"
+    },
+    {
+      "text": "Saturday: 09h00-17h00",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Saturday: 09h00-17h00"
+    },
+    {
+      "text": "Sunday’s & Public Holidays: Closed",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Sunday’s &amp; Public Holidays: Closed"
+    },
+    {
+      "text": "MELKBOSSTRANDTel: 021 553 2153Address: c/o 6th Avenue and Otto du Plessis, Melkbosstrand, 7441Email: melkbos@jansenvorster.co.zaBusiness HoursMonday – Thursday: 08h30-17h30Friday: 08h00-17h00Saturday: 08h00-12h00Sunday’s & Public Holidays: Closed",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "width": "359.984px",
+        "height": "728px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "relative",
+        "opacity": "1"
+      },
+      "html": "\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"color: #000000;\"><strong>MELKBOSSTRAND</strong></span></p><p>Tel: 021 553 2153</p><p>Address: c/o 6th Avenue and Otto du Plessis, Melkbosstrand, 7441</p><p>Email: <a href=\"mailto:melkbos@jansenvorster.co.za\">melkbos@jansenvorster.co.za</a></p><p><strong><span style=\"color: #000000;\">Business Hours</span></strong></p><p>Monday – Thursday: 08h30-17h30</p><p>Friday: 08h00-17h00</p><p>Saturday: 08h00-12h00</p><p>Sunday’s &amp; Public Holidays: Closed</p><hr><p>&nbsp;</p><p><iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.143259246101!2d18.439805215149892!3d-33.73111148069448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dccf4bae4877435%3A0xdd6cadb7037783e8!2s6th+Ave+%26+Otto+du"
+    },
+    {
+      "text": "MELKBOSSTRAND",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<span style=\"color: #000000;\"><strong>MELKBOSSTRAND</strong></span>"
+    },
+    {
+      "text": "Tel: 021 553 2153",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Tel: 021 553 2153"
+    },
+    {
+      "text": "Address: c/o 6th Avenue and Otto du Plessis, Melkbosstrand, 7441",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "48px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Address: c/o 6th Avenue and Otto du Plessis, Melkbosstrand, 7441"
+    },
+    {
+      "text": "Email: melkbos@jansenvorster.co.za",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Email: <a href=\"mailto:melkbos@jansenvorster.co.za\">melkbos@jansenvorster.co.za</a>"
+    },
+    {
+      "text": "Business Hours",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "<strong><span style=\"color: #000000;\">Business Hours</span></strong>"
+    },
+    {
+      "text": "Monday – Thursday: 08h30-17h30",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Monday – Thursday: 08h30-17h30"
+    },
+    {
+      "text": "Friday: 08h00-17h00",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Friday: 08h00-17h00"
+    },
+    {
+      "text": "Saturday: 08h00-12h00",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Saturday: 08h00-12h00"
+    },
+    {
+      "text": "Sunday’s & Public Holidays: Closed",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "Roboto, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(122, 122, 122)",
+        "backgroundPosition": "0% 0%",
+        "margin": "0px 0px 16px",
+        "width": "349.984px",
+        "height": "24px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(122, 122, 122)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "html": "Sunday’s &amp; Public Holidays: Closed"
+    }
+  ],
+  "sections": [
+    {
+      "i": 0,
+      "tag": "section",
+      "id": null,
+      "classes": "elementor-section elementor-top-section elementor-element elementor-element-b2c23b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+      "rect": {
+        "top": 100,
+        "height": 232,
+        "width": 1140
+      },
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(111, 121, 130)",
+        "backgroundPosition": "0% 0%",
+        "width": "1140px",
+        "height": "231.812px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(111, 121, 130)",
+        "position": "relative",
+        "opacity": "1"
+      },
+      "textPreview": "!function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore",
+      "html": "\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5697142\" data-id=\"5697142\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-818e974 elementor-widget elementor-widget-shortcode\" data-id=\"818e974\" data-element_type=\"widget\" data-widget_type=\"shortcode.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-shortcode\"><!-- HFCM by 99 Robots - Snippet # 1: Facebook Pixel -->\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '499911141414843');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=499911141414843&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n<!-- /end HFCM by 99 Robots -->\n</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-cbdc6a6 brands elementor-widget elementor-widget-text-editor\" data-id=\"cbdc6a6\" data"
+    },
+    {
+      "i": 1,
+      "tag": "section",
+      "id": null,
+      "classes": "elementor-section elementor-top-section elementor-element elementor-element-7323091 elementor-section-boxed elementor-section-height-default elementor-section-height-default",
+      "rect": {
+        "top": 332,
+        "height": 748,
+        "width": 1140
+      },
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(111, 121, 130)",
+        "backgroundPosition": "0% 0%",
+        "width": "1140px",
+        "height": "748px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(111, 121, 130)",
+        "position": "relative",
+        "opacity": "1"
+      },
+      "textPreview": "ATLANTISTel: 021 572 6436Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349Email: atlantis@jansenvorster.co.zaBusiness HoursMonday – Thursday: 09h00-18h00Friday: 09h00-18h00Saturday: 09h00-17h00Sunday’s & Public Holidays: Closed MELKBOSSTRANDTel: 021 553 2153Address: c/o 6th Avenue and",
+      "html": "\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-41a21a5\" data-id=\"41a21a5\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-3089f37 elementor-widget elementor-widget-text-editor\" data-id=\"3089f37\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"color: #000000;\"><strong>ATLANTIS</strong></span></p><p>Tel: 021 572 6436</p><p>Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349</p><p>Email: <a href=\"mailto:atlantis@jansenvorster.co.za\">atlantis@jansenvorster.co.za</a></p><p><span style=\"color: #000000;\"><strong>Business Hours</strong></span></p><p>Monday – Thursday: 09h00-18h00</p><p>Friday: 09h00-18h00</p><p>Saturday: 09h00-17h00</p><p>Sunday’s &amp; Public Holidays: Closed</p><hr><p>&nbsp;</p><p><iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.604013474499!2d18.490657815145465!3d-33.56366338074165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dccec41438be6bf%3A0xe3c754976e014592!2sAtlantis+City+Centre!5e0!3m2!1sen!2sza!4v1557824809493!5m2!1sen!2sza\" width=\"710\" height=\"280\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t<div class=\"elementor-"
+    },
+    {
+      "i": 2,
+      "tag": "footer",
+      "id": null,
+      "classes": "footer-five",
+      "rect": {
+        "top": 1180,
+        "height": 80,
+        "width": 1440
+      },
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(111, 121, 130)",
+        "backgroundPosition": "0% 0%",
+        "width": "1440px",
+        "height": "80px",
+        "display": "block",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(111, 121, 130)",
+        "position": "static",
+        "opacity": "1"
+      },
+      "textPreview": "Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud. Social Link Facebook Instagram Linkedin Pinterest Behance Contact Info 25 Bedford St. New York City, N.Y. United States Of America +88-017812-3",
+      "html": "\n            <div class=\"footer-top\">\n            <div class=\"container\">\n                <div class=\"row footer_sidebar\">\n                    <div id=\"about_us-1\" class=\"widget footer-widget col-xs-6 col-sm-6 col-md-3 wow fadeIn widget1 about_us_widget animated\" style=\"visibility: visible; animation-name: fadeIn;\">        <a href=\"https://jansenvorster.co.za/\" class=\"logo\">\n            <img src=\"http://droitthemes.com/wp/appart/wp-content/uploads/2018/05/Logo_1.png\" alt=\"Jansen &amp; Vorster\">\n        </a>\n        <p> Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud. </p>\n        <ul class=\"nav social_icon row m0\">\n                        \n            \n            \n            \n            \n            \n                    </ul>\n        </div><div id=\"social_site_links-1\" class=\"widget footer-widget col-xs-6 col-sm-6 col-md-3 wow fadeIn widget4 widget_social animated\" style=\"visibility: visible; animation-name: fadeIn;\"><h4 class=\"widget_title_two\">Social Link</h4>\t\t<ul class=\"social-icon\">\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-facebook\"></i>Facebook</a></li>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-instagram\"></i> Instagram </a></li>\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-linkedin\"></i> Linkedin </a></li>\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-pinterest\"></i> Pinterest </a></li>\n\t\t\t\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"fa fa-behance\"></i> Behance </a></li>\n\t\t"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://jansenvorster.co.za/wp-content/uploads/2023/07/jv.logo_.png",
+      "alt": "Jansen & Vorster",
+      "w": 300,
+      "h": 70,
+      "styles": {
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundPosition": "0% 0%",
+        "width": "300px",
+        "height": "70px",
+        "display": "inline",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(0, 0, 0)",
+        "position": "static",
+        "opacity": "1"
+      }
+    },
+    {
+      "src": "https://jansenvorster.co.za/wp-content/uploads/2023/07/jv.logo_-1.png",
+      "alt": "Jansen & Vorster",
+      "w": 300,
+      "h": 70,
+      "styles": {
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "fontFamily": "Poppins, sans-serif",
+        "lineHeight": "24px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundPosition": "0% 0%",
+        "flexDirection": "row",
+        "textAlign": "left",
+        "border": "0px none rgb(0, 0, 0)",
+        "position": "static",
+        "opacity": "1"
+      }
+    }
+  ],
+  "backgroundImages": [],
+  "iconBoxes": [],
+  "forms": [],
+  "lists": [],
+  "banner": {
+    "classes": "elementor-section elementor-top-section elementor-element elementor-element-b2c23b8 elementor-section-boxed elementor-se",
+    "styles": {
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Poppins, sans-serif",
+      "lineHeight": "24px",
+      "color": "rgb(111, 121, 130)",
+      "backgroundPosition": "0% 0%",
+      "width": "1140px",
+      "height": "231.812px",
+      "display": "block",
+      "flexDirection": "row",
+      "textAlign": "left",
+      "border": "0px none rgb(111, 121, 130)",
+      "position": "relative",
+      "opacity": "1"
+    },
+    "text": "!function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[",
+    "html": "\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5697142\" data-id=\"5697142\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-818e974 elementor-widget elementor-widget-shortcode\" data-id=\"818e974\" data-element_type=\"widget\" data-widget_type=\"shortcode.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-shortcode\"><!-- HFCM by 99 Robots - Snippet # 1: Facebook Pixel -->\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '499911141414843');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=499911141414843&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n<!-- /end HFCM by 99 Robots -->\n</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-cbdc6a6 brands elementor-widget elementor-widget-text-editor\" data-id=\"cbdc6a6\" data-element_type=\"widget\" id=\"brands\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">CONTACT US</span></h1><div><hr><span style=\"color: #000000;\"><br></span></div>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9159f7f elementor-widget elementor-widget-spacer\" data-id=\"9159f7f\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div "
+  },
+  "bodyText": "!function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '499911141414843'); fbq('track', 'PageView'); <img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=499911141414843&ev=PageView&noscript=1\" /> CONTACT US ATLANTISTel: 021 572 6436Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349Email: atlantis@jansenvorster.co.zaBusiness HoursMonday – Thursday: 09h00-18h00Friday: 09h00-18h00Saturday: 09h00-17h00Sunday’s & Public Holidays: Closed MELKBOSSTRANDTel: 021 553 2153Address: c/o 6th Avenue and Otto du Plessis, Melkbosstrand, 7441Email: melkbos@jansenvorster.co.zaBusiness HoursMonday – Thursday: 08h30-17h30Friday: 08h00-17h00Saturday: 08h00-12h00Sunday’s & Public Holidays: Closed",
+  "mainHtml": "\n\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b2c23b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"b2c23b8\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5697142\" data-id=\"5697142\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-818e974 elementor-widget elementor-widget-shortcode\" data-id=\"818e974\" data-element_type=\"widget\" data-widget_type=\"shortcode.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-shortcode\"><!-- HFCM by 99 Robots - Snippet # 1: Facebook Pixel -->\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '499911141414843');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=499911141414843&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n<!-- /end HFCM by 99 Robots -->\n</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-cbdc6a6 brands elementor-widget elementor-widget-text-editor\" data-id=\"cbdc6a6\" data-element_type=\"widget\" id=\"brands\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<h1><span style=\"color: #000000;\">CONTACT US</span></h1><div><hr><span style=\"color: #000000;\"><br></span></div>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9159f7f elementor-widget elementor-widget-spacer\" data-id=\"9159f7f\" data-element_type=\"widget\" data-widget_type=\"spacer.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-spacer\">\n\t\t\t<div class=\"elementor-spacer-inner\"></div>\n\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7323091 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"7323091\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-41a21a5\" data-id=\"41a21a5\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-3089f37 elementor-widget elementor-widget-text-editor\" data-id=\"3089f37\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"color: #000000;\"><strong>ATLANTIS</strong></span></p><p>Tel: 021 572 6436</p><p>Address: Shop 51 Atlantis City Centre, Atlantis, Cape Town, 7349</p><p>Email: <a href=\"mailto:atlantis@jansenvorster.co.za\">atlantis@jansenvorster.co.za</a></p><p><span style=\"color: #000000;\"><strong>Business Hours</strong></span></p><p>Monday – Thursday: 09h00-18h00</p><p>Friday: 09h00-18h00</p><p>Saturday: 09h00-17h00</p><p>Sunday’s &amp; Public Holidays: Closed</p><hr><p>&nbsp;</p><p><iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.604013474499!2d18.490657815145465!3d-33.56366338074165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dccec41438be6bf%3A0xe3c754976e014592!2sAtlantis+City+Centre!5e0!3m2!1sen!2sza!4v1557824809493!5m2!1sen!2sza\" width=\"710\" height=\"280\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t<div class=\"elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c871f61\" data-id=\"c871f61\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-981f013 elementor-widget elementor-widget-text-editor\" data-id=\"981f013\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<p><span style=\"color: #000000;\"><strong>MELKBOSSTRAND</strong></span></p><p>Tel: 021 553 2153</p><p>Address: c/o 6th Avenue and Otto du Plessis, Melkbosstrand, 7441</p><p>Email: <a href=\"mailto:melkbos@jansenvorster.co.za\">melkbos@jansenvorster.co.za</a></p><p><strong><span style=\"color: #000000;\">Business Hours</span></strong></p><p>Monday – Thursday: 08h30-17h30</p><p>Friday: 08h00-17h00</p><p>Saturday: 08h00-12h00</p><p>Sunday’s &amp; Public Holidays: Closed</p><hr><p>&nbsp;</p><p><iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.143259246101!2d18.439805215149892!3d-33.73111148069448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dccf4bae4877435%3A0xdd6cadb7037783e8!2s6th+Ave+%26+Otto+du+Plessis+Dr%2C+Melkbosstrand%2C+Cape+Town%2C+7441!5e0!3m2!1sen!2sza!4v1557824198500!5m2!1sen!2sza\" width=\"710\" height=\"280\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t<div class=\"elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3bd4800\" data-id=\"3bd4800\" data-element_type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap\">\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t"
+}

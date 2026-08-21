@@ -1,0 +1,72 @@
+{
+  "about-us": {
+    "title": "About Us - Jansen & Vorster",
+    "headings": [
+      "ABOUT US",
+      "BRANDS",
+      "Social Link",
+      "Contact Info"
+    ],
+    "sectionCount": 8,
+    "iconBoxes": [],
+    "formCount": 0,
+    "imageCount": 22
+  },
+  "brands": {
+    "title": "Brands - Jansen & Vorster",
+    "headings": [
+      "BRANDS",
+      "Social Link",
+      "Contact Info"
+    ],
+    "sectionCount": 6,
+    "iconBoxes": [],
+    "formCount": 0,
+    "imageCount": 20
+  },
+  "why-choose-us": {
+    "title": "Why Choose Us - Jansen & Vorster",
+    "headings": [
+      "ONE YEAR GUARANTEE",
+      "PENSIONERS PACKAGES",
+      "ONSITE LABORATORY",
+      "MEDICAL AIDS",
+      "REQUEST A CALLBACK",
+      "Social Link",
+      "Contact Info"
+    ],
+    "sectionCount": 5,
+    "iconBoxes": [
+      "ONE YEAR GUARANTEE",
+      "PENSIONERS PACKAGES",
+      "ONSITE LABORATORY",
+      "MEDICAL AIDS"
+    ],
+    "formCount": 1,
+    "imageCount": 2
+  },
+  "services": {
+    "title": "Services - Jansen & Vorster",
+    "headings": [
+      "OUR SERVICES",
+      "Social Link",
+      "Contact Info"
+    ],
+    "sectionCount": 2,
+    "iconBoxes": [],
+    "formCount": 0,
+    "imageCount": 2
+  },
+  "contact-us": {
+    "title": "Contact Us - Jansen & Vorster",
+    "headings": [
+      "CONTACT US",
+      "Social Link",
+      "Contact Info"
+    ],
+    "sectionCount": 3,
+    "iconBoxes": [],
+    "formCount": 0,
+    "imageCount": 2
+  }
+}

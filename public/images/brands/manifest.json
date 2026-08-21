@@ -1,0 +1,82 @@
+[
+  {
+    "name": "arnette",
+    "src": "/images/brands/arnette.png"
+  },
+  {
+    "name": "cat",
+    "src": "/images/brands/cat.png"
+  },
+  {
+    "name": "cube",
+    "src": "/images/brands/cube.png"
+  },
+  {
+    "name": "etnia",
+    "src": "/images/brands/etnia.png"
+  },
+  {
+    "name": "ea",
+    "src": "/images/brands/ea.png"
+  },
+  {
+    "name": "eco",
+    "src": "/images/brands/eco.png"
+  },
+  {
+    "name": "guess",
+    "src": "/images/brands/guess.png"
+  },
+  {
+    "name": "jeep",
+    "src": "/images/brands/jeep.png"
+  },
+  {
+    "name": "moonstone",
+    "src": "/images/brands/moonstone.png"
+  },
+  {
+    "name": "knex",
+    "src": "/images/brands/knex.png"
+  },
+  {
+    "name": "oakley",
+    "src": "/images/brands/oakley.png"
+  },
+  {
+    "name": "polo",
+    "src": "/images/brands/polo.png"
+  },
+  {
+    "name": "woow",
+    "src": "/images/brands/woow.png"
+  },
+  {
+    "name": "rayban",
+    "src": "/images/brands/rayban.png"
+  },
+  {
+    "name": "silhouette",
+    "src": "/images/brands/silhouette.png"
+  },
+  {
+    "name": "sightique",
+    "src": "/images/brands/sightique.png"
+  },
+  {
+    "name": "vogue",
+    "src": "/images/brands/vogue.png"
+  },
+  {
+    "name": "moleskine",
+    "src": "/images/brands/moleskine.png"
+  },
+  {
+    "name": "william-morris",
+    "src": "/images/brands/william-morris.png"
+  },
+  {
+    "name": "ted-baker",
+    "src": "/images/brands/ted-baker.png"
+  }
+]
