@@ -1,130 +1,265 @@
-type TServiceBlock = {
-  title: string;
-  paragraphs: string[];
-  bullets?: string[];
-  afterBullets?: string[];
-};
+"use client";
 
-const SERVICES: TServiceBlock[] = [
-  {
-    title: "1. Eye Screening",
-    paragraphs: [
-      "An eye screening determines whether you may need spectacles, by identifying possible visual impairment or eye conditions that are likely to lead to vision loss.",
-      "Jansen Vorster Optometrists offer visual screenings to children and adults to ensure early detection. Furthermore, the following screenings are available:",
-    ],
-    bullets: ["Driver’s license screenings", "Forklift Licence Screenings"],
-    afterBullets: [
-      "For any screenings, please contact our reception for availability with one of our optometrists to avoid disappointment.",
-    ],
-  },
-  {
-    title: "2. Eye Test / Examination",
-    paragraphs: [
-      "A comprehensive eye test (examination) is recommended every two years for adults and every year for contact lens wearers & children (7 to 18 years) to monitor ocular health.",
-      "An eye test will typically consist of the following:",
-    ],
-    bullets: [
-      "Case History",
-      "Ocular health check including a glaucoma screening",
-      "Fundus investigation – We are equipped with handheld fundus cameras to assist with assessing retinal health. As such many systemic diseases have ocular manifestations.",
-      "Corneal Topography (if required) – Diagnosis of corneal disease i.e. Keratoconus and/or virtual fittings of contact lenses.",
-      "Refraction – Determining the prescription for possible spectacles or contact lenses.",
-      "Binocular Vision Testing",
-      "Feedback on the obtained test results & advice on all possible corrective options available. This also includes referrals to eye specialists when required.",
-      "Patient education on different lens attributes.",
-      "Assistance in frame selection, lenses and quotations.",
-    ],
-  },
-  {
-    title: "3. Contact Lens Consultation",
-    paragraphs: ["A contact lens consultation will typically consist of the following:"],
-    bullets: [
-      "Case History",
-      "Assessment of tear function",
-      "Conjunctival and corneal check",
-      "Staining with fluorescein to assess eye health",
-      "Discussion of options available",
-      "Fitting of trial lenses",
-      "Instruction on caring for your eyes and lenses",
-      "A trial period to give you time to adapt to your lenses",
-    ],
-  },
-  {
-    title: "4. Hard Contact Lenses",
-    paragraphs: [],
-    bullets: [
-      "The need for hard contact lenses will be determined during a contact lens consultation",
-      "This service is mainly provided from the Melkbosstrand branch",
-      "A thorough discussion will take place before ordering a trial set of lenses",
-      "Multiple consultations might be necessary in order to finalise the final lens fitting",
-    ],
-  },
-  {
-    title: "5. On-Site Lens Laboratory",
-    paragraphs: [
-      "Jansen Vorster Optometrists are fortunate to have an on-site optical laboratory at the Melkbosstrand practice where our technician/optical dispenser is available to provide the following services:",
-    ],
-    bullets: [
-      "Fitting of spectacle lenses",
-      "Spectacle maintenance and repairs",
-      "Personal assistance with specific lens and frame selection",
-    ],
-  },
-  {
-    title: "6. Low Vision",
-    paragraphs: [
-      "Low Vision is our leading area of expertise.",
-      "We supply a wide range of optical magnifiers from Eschenbach and Schweizer. All magnifiers are available at the Melkbosstrand practice for anyone to view.",
-      "We can also fit and supply Bioptics, also known as Bioptic telescopes, which is a term for a pair of vision-enhancement lenses with telescopes that have extreme magnification. Bioptic telescopes are used to improve distance vision for people with impaired eyesight.",
-    ],
-  },
-];
+import Image from "next/image";
+import { FadeIn } from "@/components/fade-in";
+import { useI18n } from "@/components/LocaleProvider";
+import type { TMessages } from "@/lib/i18n/messages";
+
+type TServiceBlock = TMessages["services"]["items"][number];
+type TServiceGroup = TServiceBlock["groups"][number];
 
 /**
- * Services page body matching the live Elementor text-editor content.
+ * Thin orange tick used for service lists — same stroke weight as the header icons.
+ */
+function CheckIcon() {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden
+      className="mt-[5px] shrink-0 text-jv-accent"
+    >
+      <path
+        d="M2.6 8.2L6.1 11.6L13.4 4.2"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+/**
+ * One labelled group of checkmark items inside a service card.
+ */
+function ServiceGroup({ group }: { group: TServiceGroup }) {
+  if (!group.items.length) return null;
+
+  return (
+    <div className="mt-5">
+      {group.heading ? (
+        <p className="jv-kicker mb-3">{group.heading}</p>
+      ) : null}
+      <ul className="space-y-2.5">
+        {group.items.map((item) => (
+          <li
+            key={item.slice(0, 60)}
+            className="flex gap-3 text-[15px] font-light leading-7 text-jv-text"
+          >
+            <CheckIcon />
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/**
+ * Intro copy, grouped check lists, and an optional closing note.
+ */
+function ServiceCopy({ service }: { service: TServiceBlock }) {
+  return (
+    <>
+      {service.paragraphs.map((p) => (
+        <p
+          key={p.slice(0, 40)}
+          className="mb-3 text-[15px] font-light leading-7 text-jv-text sm:text-[16px] sm:leading-8"
+        >
+          {p}
+        </p>
+      ))}
+      {service.groups.map((group) => (
+        <ServiceGroup key={group.heading ?? group.items[0]} group={group} />
+      ))}
+      {"note" in service && service.note ? (
+        <p className="mt-5 text-[15px] font-light leading-7 text-jv-text sm:text-[16px] sm:leading-8">
+          {service.note}
+        </p>
+      ) : null}
+    </>
+  );
+}
+
+/**
+ * Service card body shared by the Eye Screening split and the 2-column grid.
+ */
+function ServiceArticle({
+  service,
+  index,
+}: {
+  service: TServiceBlock;
+  index: number;
+}) {
+  return (
+    <>
+      <p className="jv-kicker mb-3">{String(index + 1).padStart(2, "0")}</p>
+      <h2 className="jv-display mb-5 text-[1.85rem] sm:text-[2.15rem]">
+        {service.title}
+      </h2>
+      <ServiceCopy service={service} />
+    </>
+  );
+}
+
+type TServiceArt = {
+  src: string;
+  alt: string;
+};
+
+/**
+ * Square illustration on the right, matching the block height. Copy is never
+ * clipped. Only used when a real image file exists.
+ */
+function ServiceSplit({
+  service,
+  index,
+  art,
+  priority = false,
+}: {
+  service: TServiceBlock;
+  index: number;
+  art: TServiceArt;
+  priority?: boolean;
+}) {
+  return (
+    <FadeIn className="mb-6">
+      <article className="grid bg-jv-paper lg:grid-cols-2 lg:items-stretch">
+        <div className="overflow-visible px-7 py-9 sm:px-9 sm:py-10 lg:px-12">
+          <ServiceArticle service={service} index={index} />
+        </div>
+        <div className="relative aspect-square overflow-hidden bg-[#f4ebe1] lg:min-h-full">
+          <Image
+            src={art.src}
+            alt={art.alt}
+            fill
+            className="object-cover object-center"
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            quality={95}
+            priority={priority}
+          />
+        </div>
+      </article>
+    </FadeIn>
+  );
+}
+
+/**
+ * Returns illustration data for Eye Screening and Contact Lens Consultation.
+ * Other services stay text-only until Armand adds art.
+ */
+function serviceArt(index: number, t: TMessages): TServiceArt | null {
+  if (index === 0) {
+    return { src: "/images/services-eye.png", alt: t.services.eyeAlt };
+  }
+  if (index === 2) {
+    return { src: "/images/contact-lens.png", alt: t.services.contactLensAlt };
+  }
+  return null;
+}
+
+type TServiceEntry = {
+  service: TServiceBlock;
+  index: number;
+  art: TServiceArt | null;
+};
+
+/**
+ * Walks services in catalogue order, flushing text cards in pairs so a lone
+ * card never sits beside an empty image slot.
+ */
+function buildServiceRows(items: TServiceEntry[]) {
+  const rows: Array<
+    | { kind: "split"; item: TServiceEntry }
+    | { kind: "grid"; items: TServiceEntry[] }
+  > = [];
+  let pending: TServiceEntry[] = [];
+
+  /**
+   * Pushes buffered text-only services as one grid row.
+   */
+  function flushPending() {
+    if (!pending.length) return;
+    rows.push({ kind: "grid", items: pending });
+    pending = [];
+  }
+
+  for (const item of items) {
+    if (item.art) {
+      flushPending();
+      rows.push({ kind: "split", item });
+      continue;
+    }
+    pending.push(item);
+    if (pending.length === 2) flushPending();
+  }
+  flushPending();
+  return rows;
+}
+
+/**
+ * Eye Screening and Contact Lens Consultation are copy/art splits.
+ * Remaining services sit in a two-column grid, in original catalogue order.
  */
 export function ServicesContent() {
-  return (
-    <section className="w-full bg-white py-8 pb-12 sm:py-10 sm:pb-16">
-      <div className="jv-container max-w-[900px]">
-        <h1 className="mb-4 font-[family-name:var(--font-roboto)] text-[26px] font-semibold text-black uppercase sm:text-[34.16px]">
-          OUR SERVICES
-        </h1>
-        <p className="mb-6 font-[family-name:var(--font-poppins)] text-[14px] font-light leading-6 text-[#555]">
-          Jansen Vorster Optometrists offers the following services.
-        </p>
+  const { t } = useI18n();
+  const items = t.services.items.map((service, index) => ({
+    service,
+    index,
+    art: serviceArt(index, t),
+  }));
+  const rows = buildServiceRows(items);
 
-        {SERVICES.map((service, index) => (
-          <div key={service.title}>
-            {index > 0 ? <hr className="my-8 border-0 border-t border-[#ddd]" /> : null}
-            <h2 className="mb-3 font-[family-name:var(--font-poppins)] text-[15px] font-bold text-black">
-              {service.title}
-            </h2>
-            {service.paragraphs.map((p) => (
-              <p
-                key={p.slice(0, 40)}
-                className="mb-3 font-[family-name:var(--font-poppins)] text-[14px] font-light leading-6 text-[#555]"
-              >
-                {p}
-              </p>
-            ))}
-            {service.bullets?.length ? (
-              <ul className="mb-3 space-y-1 font-[family-name:var(--font-poppins)] text-[14px] font-light leading-6 text-[#555]">
-                {service.bullets.map((b) => (
-                  <li key={b.slice(0, 50)}>– {b}</li>
-                ))}
-              </ul>
-            ) : null}
-            {service.afterBullets?.map((p) => (
-              <p
-                key={p.slice(0, 40)}
-                className="mb-3 font-[family-name:var(--font-poppins)] text-[14px] font-light leading-6 text-[#555]"
-              >
-                {p}
-              </p>
-            ))}
-          </div>
-        ))}
+  return (
+    <section className="w-full bg-[#fdfcfb] py-16 pb-24 sm:py-20">
+      <div className="jv-container">
+        <FadeIn className="mb-10 max-w-[36rem] lg:mb-14">
+          <p className="jv-kicker mb-4">{t.services.kicker}</p>
+          <h1 className="jv-display mb-6 text-4xl sm:text-6xl">{t.services.title}</h1>
+          <p className="text-[17px] font-light leading-8">{t.services.intro}</p>
+        </FadeIn>
+
+        {rows.map((row) => {
+          if (row.kind === "split") {
+            return (
+              <ServiceSplit
+                key={row.item.service.title}
+                service={row.item.service}
+                index={row.item.index}
+                art={row.item.art as TServiceArt}
+                priority={row.item.index === 0}
+              />
+            );
+          }
+
+          const paired = row.items.length > 1;
+          return (
+            <div
+              key={row.items.map((item) => item.service.title).join("-")}
+              className={
+                paired
+                  ? "mb-6 grid grid-cols-1 gap-6 md:grid-cols-2 md:items-stretch"
+                  : "mb-6 grid max-w-[calc(50%-0.75rem)] grid-cols-1 max-md:max-w-none"
+              }
+            >
+              {row.items.map((item) => (
+                <FadeIn
+                  key={item.service.title}
+                  delay={item.index * 0.04}
+                  className={paired ? "h-full" : undefined}
+                >
+                  <article className="h-full overflow-visible bg-jv-paper px-7 py-9 sm:px-9 sm:py-10">
+                    <ServiceArticle service={item.service} index={item.index} />
+                  </article>
+                </FadeIn>
+              ))}
+            </div>
+          );
+        })}
       </div>
     </section>
   );

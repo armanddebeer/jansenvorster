@@ -1,31 +1,22 @@
-type TImportantMessageProps = {
-  title: string;
-  body: string;
-  email: string;
-};
+"use client";
+
+import { FadeIn } from "@/components/fade-in";
+import { useI18n } from "@/components/LocaleProvider";
 
 /**
- * Orange announcement banner matching Elementor section 2969eab.
+ * Quiet announcement band — orange is used as a kicker, not a full-bleed shout.
  */
-export function ImportantMessage({ title, body, email }: TImportantMessageProps) {
+export function ImportantMessage() {
+  const { t } = useI18n();
+
   return (
-    <section className="w-full bg-jv-accent px-4 py-10 text-center text-white sm:py-[50px]">
-      <div className="mx-auto max-w-[570px]">
-        <h3 className="mb-2 font-[family-name:var(--font-roboto)] text-[20px] font-medium leading-tight text-white sm:text-[24px]">
-          {title}
-        </h3>
-        <p className="break-words font-[family-name:var(--font-roboto)] text-[14px] font-normal leading-6 text-white sm:text-[16px] sm:leading-7">
-          {body}{" "}
-          <a
-            href={`mailto:${email}`}
-            className="text-white underline-offset-2 hover:underline"
-            title={`mailto:${email}`}
-          >
-            {email}
-          </a>
-          .
+    <section className="w-full border-y border-[#e6e1d8] bg-jv-paper">
+      <FadeIn className="jv-container max-w-[820px] py-16 text-center sm:py-20">
+        <p className="jv-kicker mb-4">{t.important.title}</p>
+        <p className="font-heading text-[1.45rem] leading-snug text-jv-ink sm:text-[1.85rem] sm:leading-snug">
+          {t.important.body}
         </p>
-      </div>
+      </FadeIn>
     </section>
   );
 }

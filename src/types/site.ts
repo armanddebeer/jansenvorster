@@ -3,13 +3,12 @@
  */
 
 export type TNavLink = {
-  label: string;
+  key: "home" | "about" | "brands" | "whyChoose" | "services" | "contact";
   href: string;
 };
 
 export type TFeatureItem = {
-  title: string;
-  description: string;
+  id: "guarantee" | "pension" | "lab" | "medical";
   icon: "handshake" | "user" | "microscope" | "stethoscope";
 };
 

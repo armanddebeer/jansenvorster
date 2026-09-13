@@ -7,7 +7,7 @@ import { LOCATIONS } from "@/lib/site-data";
 export const metadata: Metadata = {
   title: "Contact Us - Jansen & Vorster",
   description:
-    "Contact Jansen & Vorster Optometrists in Atlantis and Melkbosstrand, Cape Town.",
+    "Contact Jansen & Vorster Optometrists in Atlantis, Melkbosstrand and Milnerton, Cape Town.",
 };
 
 /**
@@ -16,9 +16,7 @@ export const metadata: Metadata = {
 export default function ContactUsPage() {
   return (
     <SiteShell>
-      <div className="pt-10">
-        <ContactLocations locations={LOCATIONS} />
-      </div>
+      <ContactLocations locations={LOCATIONS} />
       <CallbackForm />
     </SiteShell>
   );

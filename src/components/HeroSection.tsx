@@ -1,32 +1,67 @@
-import Link from "next/link";
+"use client";
 
-type THeroSectionProps = {
-  title: string;
-  ctaLabel: string;
-  ctaHref: string;
-};
+import Image from "next/image";
+import { GetInTouchButton } from "@/components/GetInTouchButton";
+import { useI18n } from "@/components/LocaleProvider";
+import { motion } from "motion/react";
 
 /**
- * Full-bleed hero matching the Revolution Slider single-slide layout.
+ * Full-width cream hero. The illustration is never cropped: it is
+ * height-clamped and right-aligned so Table Mountain and the glasses stay
+ * visible. Extra viewport width becomes more cream on the left, which is
+ * where the slogan sits — a readable column, not a skinny strip.
  */
-export function HeroSection({ title, ctaLabel, ctaHref }: THeroSectionProps) {
+export function HeroSection() {
+  const { t } = useI18n();
+
+  const copy = (
+    <>
+      <p className="jv-kicker mb-4">{t.hero.kicker}</p>
+      <h1 className="jv-display mb-4 text-[2.5rem] leading-[1.02] sm:text-5xl lg:text-[3.5rem] xl:text-[3.85rem]">
+        {t.hero.titleLine1}
+        <br />
+        {t.hero.titleLine2}
+      </h1>
+      <span className="mb-5 block h-px w-16 bg-jv-accent" aria-hidden />
+      <p className="mb-2 font-heading text-[1.35rem] font-medium leading-snug text-jv-ink sm:text-[1.5rem]">
+        {t.hero.subtitle}
+      </p>
+      <p className="mb-7 max-w-[36rem] text-[16px] font-light leading-7 text-jv-text sm:text-[17px] sm:leading-8">
+        {t.hero.detail}
+      </p>
+      <GetInTouchButton className="jv-btn w-fit">{t.nav.getInTouch}</GetInTouchButton>
+    </>
+  );
+
   return (
     <section
       id="home"
-      className="relative flex min-h-[280px] w-full items-center justify-center overflow-hidden bg-cover bg-center bg-no-repeat px-3 py-12 sm:min-h-[360px] sm:px-4 md:h-[400px] md:py-0 lg:h-[450px]"
-      style={{ backgroundImage: "url(/images/hero-glasses.webp)" }}
-      aria-label="Hero"
+      className="relative overflow-hidden bg-[#f4ebe1]"
+      aria-label={t.hero.aria}
     >
-      <div className="relative z-10 flex w-full max-w-[1140px] flex-col items-center text-center">
-        <h2 className="mb-5 max-w-[20ch] text-balance text-center font-[family-name:var(--font-poppins)] text-[22px] font-light leading-snug text-white sm:mb-6 sm:max-w-none sm:whitespace-nowrap sm:text-[35px] sm:leading-[70px] md:text-[45px] lg:text-[56px] lg:leading-[70px]">
-          {title}
-        </h2>
-        <Link
-          href={ctaHref}
-          className="inline-flex min-h-[48px] items-center justify-center rounded-[3px] bg-jv-cta px-6 py-3 text-center font-[family-name:var(--font-poppins)] text-[15px] font-medium leading-tight text-white transition-colors duration-300 hover:bg-[#d63d1f] sm:h-[55px] sm:px-[35px] sm:text-[18px] sm:leading-[30px] sm:whitespace-nowrap"
+      <div className="relative flex w-full flex-col lg:block lg:h-[clamp(500px,36vw,640px)]">
+        <motion.div
+          className="order-1 px-6 py-10 sm:px-8 lg:pointer-events-none lg:absolute lg:inset-0 lg:z-10 lg:order-none lg:flex lg:items-center lg:px-0 lg:py-0"
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
         >
-          {ctaLabel}
-        </Link>
+          <div className="jv-container lg:pointer-events-auto">
+            <div className="max-w-[40rem]">{copy}</div>
+          </div>
+        </motion.div>
+
+        <div className="relative order-2 aspect-[1672/941] w-full lg:absolute lg:inset-0 lg:order-none lg:aspect-auto">
+          <Image
+            src="/images/home-hero.png"
+            alt={t.hero.imageAlt}
+            fill
+            className="max-w-none object-contain object-center lg:object-right"
+            sizes="100vw"
+            quality={95}
+            priority
+          />
+        </div>
       </div>
     </section>
   );

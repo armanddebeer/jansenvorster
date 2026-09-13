@@ -1,25 +1,24 @@
 import type { Metadata } from "next";
-import { Poppins, Roboto } from "next/font/google";
+import { Cormorant_Garamond, Outfit } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
-const roboto = Roboto({
-  variable: "--font-roboto",
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "Jansen & Vorster - Optometrists in Western Cape South Africa",
   description:
-    "Jansen Vorster Optometrists — passionate about eyes and eye care. Practices in Melkbosstrand and Atlantis, Cape Town.",
+    "Jansen Vorster Optometrists — Eye Care With Knowledge. Practices in Melkbosstrand, Milnerton and Atlantis, Cape Town.",
   icons: {
     icon: [
       { url: "/seo/favicon-32.png", sizes: "32x32", type: "image/png" },
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
 };
 
 /**
- * Root layout with site fonts and SEO metadata matching the live site.
+ * Root layout with display serif + clinical sans, injected via next/font.
  */
 export default function RootLayout({
   children,
@@ -40,9 +39,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.variable} ${roboto.variable} h-full`}
+      className={`${outfit.variable} ${cormorant.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="flex min-h-full flex-col font-sans">{children}</body>
     </html>
   );
 }

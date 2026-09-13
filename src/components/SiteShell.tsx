@@ -1,20 +1,27 @@
+import { CookieConsent } from "@/components/CookieConsent";
+import { GetInTouchModal } from "@/components/GetInTouchModal";
+import { GetInTouchProvider } from "@/components/GetInTouchProvider";
+import { LocaleProvider } from "@/components/LocaleProvider";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { FOOTER, NAV_LINKS } from "@/lib/site-data";
 
 type TSiteShellProps = {
   children: React.ReactNode;
 };
 
 /**
- * Shared chrome for all pages — header + copyright footer.
+ * Shared chrome for all pages — header, footer, cookie notice, Get in Touch dialog.
  */
 export function SiteShell({ children }: TSiteShellProps) {
   return (
-    <>
-      <SiteHeader links={NAV_LINKS} />
-      <main className="flex-1">{children}</main>
-      <SiteFooter {...FOOTER} />
-    </>
+    <LocaleProvider>
+      <GetInTouchProvider>
+        <SiteHeader />
+        <main className="flex-1">{children}</main>
+        <SiteFooter />
+        <GetInTouchModal />
+        <CookieConsent />
+      </GetInTouchProvider>
+    </LocaleProvider>
   );
 }

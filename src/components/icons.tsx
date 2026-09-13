@@ -22,7 +22,14 @@ type TFeatureIconProps = {
  */
 export function FeatureIcon({ name, className }: TFeatureIconProps) {
   const icon: IconDefinition = ICON_MAP[name];
-  return <FontAwesomeIcon icon={icon} className={className} aria-hidden />;
+  return (
+    <FontAwesomeIcon
+      icon={icon}
+      className={className}
+      style={{ width: "1em", height: "1em" }}
+      aria-hidden
+    />
+  );
 }
 
 /**

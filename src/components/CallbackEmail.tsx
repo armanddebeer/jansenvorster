@@ -2,21 +2,25 @@ type TCallbackEmailProps = {
   name: string;
   phone: string;
   email: string;
-  assistance: string;
+  practice: string;
+  preferredTime: string;
+  message: string;
 };
 
 /**
- * HTML email body for a “Request a Callback” submission sent through Resend.
+ * HTML email body for an enquiry sent through Resend.
  */
 export function CallbackEmail({
   name,
   phone,
   email,
-  assistance,
+  practice,
+  preferredTime,
+  message,
 }: TCallbackEmailProps) {
   return (
     <div>
-      <h2>New callback request</h2>
+      <h2>New enquiry from the website</h2>
       <p>
         <strong>Name:</strong> {name}
       </p>
@@ -27,9 +31,15 @@ export function CallbackEmail({
         <strong>Email:</strong> {email}
       </p>
       <p>
-        <strong>Assistance needed:</strong>
+        <strong>Practice:</strong> {practice}
       </p>
-      <p>{assistance}</p>
+      <p>
+        <strong>Preferred time:</strong> {preferredTime}
+      </p>
+      <p>
+        <strong>Message:</strong>
+      </p>
+      <p>{message}</p>
     </div>
   );
 }

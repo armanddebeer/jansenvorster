@@ -1,13 +1,16 @@
 import { CallbackEmail } from "@/components/CallbackEmail";
+import { emailForPractice } from "@/lib/enquiry";
 import type { TCallbackRequest, TCallbackResponse } from "@/types/callback";
+import { PREFERRED_TIMES } from "@/types/callback";
 import { Resend } from "resend";
 
 const MAX_FIELD_LENGTH = 500;
+const MAX_MESSAGE_LENGTH = 2000;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 /**
- * Sends a callback request email via Resend.
- * Requires RESEND_API_KEY. Optional CALLBACK_TO_EMAIL / RESEND_FROM_EMAIL.
+ * Sends an enquiry to the selected practice via Resend.
+ * Requires RESEND_API_KEY and RESEND_FROM (or RESEND_FROM_EMAIL).
  */
 export async function POST(request: Request) {
   try {
@@ -15,31 +18,45 @@ export async function POST(request: Request) {
     try {
       body = (await request.json()) as Partial<TCallbackRequest>;
     } catch {
-      return jsonResponse(
-        { ok: false, message: "Invalid request." },
-        400
-      );
+      return jsonResponse({ ok: false, message: "Invalid request." }, 400);
     }
 
     const name = trimField(body.name);
     const phone = trimField(body.phone);
     const email = trimField(body.email);
-    const assistance = trimField(body.assistance);
+    const practice = trimField(body.practice);
+    const preferredTime = trimField(body.preferredTime);
+    const message = trimField(body.message, MAX_MESSAGE_LENGTH);
 
-    if (!name || !phone || !assistance) {
+    if (!name || !phone || !email || !practice || !preferredTime || !message) {
       return jsonResponse(
         {
           ok: false,
           message:
-            "Please fill in your name, phone number, and what you need help with.",
+            "Please fill in your name, phone, email, preferred practice, preferred time, and message.",
         },
         400
       );
     }
 
-    if (email && !EMAIL_PATTERN.test(email)) {
+    if (!EMAIL_PATTERN.test(email)) {
       return jsonResponse(
         { ok: false, message: "Please enter a valid email address." },
+        400
+      );
+    }
+
+    if (!(PREFERRED_TIMES as readonly string[]).includes(preferredTime)) {
+      return jsonResponse(
+        { ok: false, message: "Please choose a preferred time from the list." },
+        400
+      );
+    }
+
+    const to = emailForPractice(practice);
+    if (!to) {
+      return jsonResponse(
+        { ok: false, message: "Please choose Atlantis, Melkbosstrand or Milnerton." },
         400
       );
     }
@@ -56,11 +73,9 @@ export async function POST(request: Request) {
       );
     }
 
-    const to = process.env.CALLBACK_TO_EMAIL ?? "melkbos@jansenvorster.co.za";
-    const from = process.env.RESEND_FROM_EMAIL;
-
+    const from = process.env.RESEND_FROM || process.env.RESEND_FROM_EMAIL;
     if (!from) {
-      console.error("RESEND_FROM_EMAIL is not configured");
+      console.error("RESEND_FROM / RESEND_FROM_EMAIL is not configured");
       return jsonResponse(
         {
           ok: false,
@@ -74,20 +89,24 @@ export async function POST(request: Request) {
     const { error } = await resend.emails.send({
       from,
       to: [to],
-      replyTo: email || undefined,
-      subject: `Callback request from ${name}`,
+      replyTo: email,
+      subject: `Website enquiry for ${practice} from ${name}`,
       react: CallbackEmail({
         name,
         phone,
-        email: email || "—",
-        assistance,
+        email,
+        practice,
+        preferredTime,
+        message,
       }),
       text: [
-        "New callback request",
+        "New website enquiry",
         `Name: ${name}`,
         `Phone: ${phone}`,
-        `Email: ${email || "—"}`,
-        `Assistance needed: ${assistance}`,
+        `Email: ${email}`,
+        `Practice: ${practice}`,
+        `Preferred time: ${preferredTime}`,
+        `Message: ${message}`,
       ].join("\n"),
       tags: [{ name: "category", value: "callback" }],
     });
@@ -105,7 +124,7 @@ export async function POST(request: Request) {
 
     return jsonResponse({
       ok: true,
-      message: "Thank you. We will call you back shortly.",
+      message: `Thank you. We have emailed the ${practice.toLowerCase()} practice and will be in touch.`,
     });
   } catch (err) {
     console.error("Callback API error:", err);
@@ -117,12 +136,12 @@ export async function POST(request: Request) {
 }
 
 /**
- * Trims a form field and rejects values that exceed the length cap.
+ * Trims a form field and caps length so a single submission cannot flood the inbox.
  */
-function trimField(value: string | undefined) {
+function trimField(value: string | undefined, max = MAX_FIELD_LENGTH) {
   const trimmed = value?.trim() ?? "";
-  if (trimmed.length > MAX_FIELD_LENGTH) {
-    return trimmed.slice(0, MAX_FIELD_LENGTH);
+  if (trimmed.length > max) {
+    return trimmed.slice(0, max);
   }
   return trimmed;
 }

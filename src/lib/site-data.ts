@@ -1,35 +1,19 @@
 import type { TBrandLogo, TFeatureItem, TNavLink } from "@/types/site";
 
 export const NAV_LINKS: TNavLink[] = [
-  { label: "HOME", href: "/" },
-  { label: "ABOUT US", href: "/about-us" },
-  { label: "BRANDS", href: "/brands" },
-  { label: "WHY CHOOSE US", href: "/why-choose-us" },
-  { label: "OUR SERVICES", href: "/services" },
-  { label: "CONTACT US", href: "/contact-us" },
+  { key: "home", href: "/" },
+  { key: "about", href: "/about-us" },
+  { key: "brands", href: "/brands" },
+  { key: "whyChoose", href: "/why-choose-us" },
+  { key: "services", href: "/services" },
+  { key: "contact", href: "/contact-us" },
 ];
 
 export const FEATURES: TFeatureItem[] = [
-  {
-    title: "ONE YEAR GUARANTEE",
-    description: "A one-year guarantee on all manufacturer errors.",
-    icon: "handshake",
-  },
-  {
-    title: "PENSIONERS PACKAGES",
-    description: "Special pensioner packages available (T&C’s apply).",
-    icon: "user",
-  },
-  {
-    title: "ONSITE LABORATORY",
-    description: "Fitting lab and technician available at our Melkbosstrand branch.",
-    icon: "microscope",
-  },
-  {
-    title: "MEDICAL AIDS",
-    description: "We are contracted with most Medical Aid service providers.",
-    icon: "stethoscope",
-  },
+  { id: "guarantee", icon: "handshake" },
+  { id: "pension", icon: "user" },
+  { id: "lab", icon: "microscope" },
+  { id: "medical", icon: "stethoscope" },
 ];
 
 /** Homepage brand grid (20 logos). */
@@ -79,11 +63,13 @@ export const PAGE_BRANDS: TBrandLogo[] = [
 ];
 
 export const BRANDS_INTRO =
-  "We stock various well-known brands that are personally selected by the Jansen Vorster team. Our main goal is to spend sufficient time with each patient to ensure the correct style of frame is selected. dispensing of spectacles and contact lenses. We strive to walk the extra mile with all of our patients.";
+  "We stock well-known brands, personally selected by the Jansen Vorster team. We take time with each patient to find the right frame.";
 
 export const ABOUT_PARAGRAPHS = [
-  "Jansen Vorster Optometrists is owned and managed by two qualified optometrists namely Mr. Frederik Jansen and Mrs. Mandre Vorster. We operate from two practices that are situated in Melkbosstrand and Atlantis Cape Town respectively.",
-  "We are passionate about eyes and understand that your eyes are an integral part of connecting you to the visual world. We will therefore take every measure to ensure that your eyes are well taken care of. With over twenty-five years of combined experience, we offer a wide range of services, from eye examinations to fitting and dispensing of spectacles and contact lenses. We strive to walk the extra mile with all of our patients.",
+  "Jansen Vorster Optometrists is proudly owned and managed by two qualified optometrists, Mr Frederik Jansen and Mrs Mandre Vorster. We have three practices conveniently located in Melkbosstrand, Milnerton and Atlantis, Cape Town.",
+  "We are passionate about eye care and understand the vital role your vision plays in connecting you to the world around you. That’s why we are committed to providing personalised, professional care and taking every measure to ensure that your eyes receive the attention they deserve.",
+  "With more than 30 years of combined experience, we offer a comprehensive range of optometric services, including professional eye examinations, spectacle fitting & dispensing, and contact lens services.",
+  "At Jansen Vorster Optometrists, we believe in going the extra mile for every patient. Our goal is not only to help you see better, but to ensure that you receive exceptional care in a welcoming and professional environment.",
 ];
 
 export type TLocation = {
@@ -123,6 +109,20 @@ export const LOCATIONS: TLocation[] = [
     ],
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.143259246101!2d18.439805215149892!3d-33.73111148069448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dccf4bae4877435%3A0xdd6cadb7037783e8!2s6th+Ave+%26+Otto+du+Plessis+Dr%2C+Melkbosstrand%2C+Cape+Town%2C+7441!5e0!3m2!1sen!2sza!4v1557824198500!5m2!1sen!2sza",
+  },
+  {
+    name: "MILNERTON",
+    tel: "021 552 4571",
+    address: "Shop 2B, The Paddocks Centre, Racecourse Rd, Milnerton, Cape Town, 7441",
+    email: "milnerton@jansenvorster.co.za",
+    hours: [
+      "Monday – Friday: 09h00-17h00",
+      "Saturday: 09h00-13h00",
+      "Public Holidays: 09h00-13h00",
+      "Sunday: Closed",
+    ],
+    mapSrc:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.5!2d18.5028064!3d-33.8621653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5c%3A0x0!2sThe+Paddocks+Shopping+Centre%2C+Racecourse+Rd%2C+Milnerton!5e0!3m2!1sen!2sza!4v1557824809493!5m2!1sen!2sza",
   },
 ];
 

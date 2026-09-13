@@ -7,8 +7,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
-  --font-heading: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-cormorant), ui-serif, Georgia, serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
   --color-jv-accent: var(--jv-accent);
   --color-jv-cta: var(--jv-cta);
@@ -17,6 +17,8 @@
   --color-jv-black: var(--jv-black);
   --color-jv-feature-bg: var(--jv-feature-bg);
   --color-jv-footer: var(--jv-footer);
+  --color-jv-paper: var(--jv-paper);
+  --color-jv-ink: var(--jv-ink);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -57,36 +59,38 @@
 
 :root {
   --jv-accent: #eb5037;
-  --jv-cta: #ed4524;
-  --jv-text: #6f7982;
-  --jv-heading: #7a7a7a;
-  --jv-black: #000000;
-  --jv-feature-bg: #f6f6f6;
-  --jv-footer: #242424;
-  --background: #ffffff;
-  --foreground: #6f7982;
+  --jv-cta: #eb5037;
+  --jv-text: #5c5850;
+  --jv-heading: #1c1917;
+  --jv-black: #1c1917;
+  --jv-ink: #1c1917;
+  --jv-paper: #f4f1ec;
+  --jv-feature-bg: #f4f1ec;
+  --jv-footer: #1c1917;
+  --background: #fdfcfb;
+  --foreground: #5c5850;
   --card: #ffffff;
-  --card-foreground: #6f7982;
+  --card-foreground: #5c5850;
   --popover: #ffffff;
-  --popover-foreground: #6f7982;
+  --popover-foreground: #5c5850;
   --primary: #eb5037;
   --primary-foreground: #ffffff;
-  --secondary: #f6f6f6;
-  --secondary-foreground: #000000;
-  --muted: #f6f6f6;
-  --muted-foreground: #7a7a7a;
-  --accent: #f6f6f6;
-  --accent-foreground: #000000;
+  --secondary: #f4f1ec;
+  --secondary-foreground: #1c1917;
+  --muted: #f4f1ec;
+  --muted-foreground: #5c5850;
+  --accent: #f4f1ec;
+  --accent-foreground: #1c1917;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: #e5e5e5;
-  --input: #e5e5e5;
+  --border: #e6e1d8;
+  --input: #e6e1d8;
   --ring: #eb5037;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --radius: 0.1875rem;
+  --radius: 0.25rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -109,9 +113,9 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
     color: var(--jv-text);
     overflow-x: hidden;
   }
@@ -129,21 +133,84 @@
 }
 
 /**
- * Matches Appart theme container (~1140px at desktop).
+ * Wide, airy page column — more padding than the old 1140px Appart clone.
  */
 .jv-container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
   box-sizing: border-box;
 }
 
 @media (max-width: 389px) {
   .jv-container {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+@layer components {
+  .jv-display {
+    font-family: var(--font-heading);
+    color: var(--jv-ink);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.12;
+  }
+
+  .jv-kicker {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--jv-accent);
+  }
+
+  .jv-btn {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background: var(--jv-accent);
+    padding: 0.85rem 1.6rem;
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+  }
+
+  .jv-btn:hover {
+    background: #d4452e;
+  }
+
+  .jv-btn-outline {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--jv-ink);
+    border-radius: 2px;
+    background: transparent;
+    padding: 0.85rem 1.6rem;
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--jv-ink);
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  .jv-btn-outline:hover {
+    background: var(--jv-ink);
+    color: #fff;
   }
 }

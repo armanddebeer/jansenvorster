@@ -1,22 +1,21 @@
-type TWhoWeAreProps = {
-  title: string;
-  body: string;
-};
+"use client";
+
+import { FadeIn } from "@/components/fade-in";
+import { useI18n } from "@/components/LocaleProvider";
 
 /**
- * Centered intro block matching Elementor inner section 88ae1a5.
+ * Centered intro with generous type and whitespace.
  */
-export function WhoWeAre({ title, body }: TWhoWeAreProps) {
+export function WhoWeAre() {
+  const { t } = useI18n();
+
   return (
-    <section className="w-full bg-white pt-[50px] pb-[30px]">
-      <div className="jv-container max-w-[1120px] text-center">
-        <h1 className="mb-[30px] font-[family-name:var(--font-roboto)] text-[28px] font-medium leading-[1.2] text-black uppercase sm:text-[34.16px] sm:leading-[40.992px]">
-          {title}
-        </h1>
-        <p className="mx-auto max-w-[900px] px-[25px] font-[family-name:var(--font-poppins)] text-[14px] font-light leading-6 text-black">
-          {body}
-        </p>
-      </div>
+    <section className="w-full bg-[#fdfcfb] py-20 sm:py-28">
+      <FadeIn className="jv-container max-w-[780px] text-center">
+        <p className="jv-kicker mb-4">{t.who.kicker}</p>
+        <h2 className="jv-display mb-8 text-4xl sm:text-5xl">{t.who.title}</h2>
+        <p className="text-[17px] font-light leading-8 text-jv-text">{t.who.body}</p>
+      </FadeIn>
     </section>
   );
 }

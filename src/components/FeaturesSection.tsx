@@ -1,38 +1,62 @@
+"use client";
+
+import { motion, useReducedMotion } from "motion/react";
 import { FeatureIcon, type TFeatureIconName } from "@/components/icons";
+import { useI18n } from "@/components/LocaleProvider";
 import type { TFeatureItem } from "@/types/site";
 
 type TFeaturesSectionProps = {
   items: TFeatureItem[];
-  /** Background token — homepage uses feature grey; why-choose-us uses white. */
+  /** Background token — homepage uses paper; why-choose-us can stay light. */
   backgroundClassName?: string;
 };
 
 /**
- * Four framed icon boxes matching Elementor icon-box widgets.
+ * Four quiet feature tiles — small icon, strong type, lots of air.
  */
 export function FeaturesSection({
   items,
-  backgroundClassName = "bg-jv-feature-bg",
+  backgroundClassName = "bg-jv-paper",
 }: TFeaturesSectionProps) {
+  const reduceMotion = useReducedMotion();
+  const { t } = useI18n();
+  const copy = {
+    guarantee: { title: t.features.guaranteeTitle, description: t.features.guaranteeBody },
+    pension: { title: t.features.pensionTitle, description: t.features.pensionBody },
+    lab: { title: t.features.labTitle, description: t.features.labBody },
+    medical: { title: t.features.medicalTitle, description: t.features.medicalBody },
+  };
+
   return (
-    <section className={`w-full px-1 pt-10 pb-12 sm:pt-[50px] sm:pb-[65px] ${backgroundClassName}`}>
+    <section className={`w-full py-20 sm:py-24 ${backgroundClassName}`}>
       <div className="jv-container">
-        <ul className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
-          {items.map((item) => (
-            <li key={item.title} className="flex flex-col items-center px-2 text-center sm:px-[15px]">
-              <div className="mb-[15px] flex h-[120px] w-[120px] items-center justify-center rounded-full border-[3px] border-jv-accent p-7 text-jv-accent transition-transform duration-300 hover:scale-[1.03] sm:h-[146px] sm:w-[146px] sm:p-[35px]">
+        <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+          {items.map((item, index) => (
+            <motion.li
+              key={item.id}
+              initial={reduceMotion ? false : { opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{
+                duration: 0.7,
+                delay: reduceMotion ? 0 : index * 0.08,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+              className="bg-[#fdfcfb] px-6 py-10 text-center"
+            >
+              <div className="mx-auto mb-6 flex h-20 items-center justify-center text-jv-accent">
                 <FeatureIcon
                   name={item.icon as TFeatureIconName}
-                  className="text-[56px] leading-none sm:text-[70px]"
+                  className="text-[3rem] leading-none"
                 />
               </div>
-              <h3 className="mb-2 font-[family-name:var(--font-roboto)] text-[18px] font-bold leading-snug text-black uppercase sm:text-[21.84px] sm:leading-[26.208px]">
-                {item.title}
+              <h3 className="mb-3 font-heading text-[1.35rem] font-medium text-jv-ink">
+                {copy[item.id].title}
               </h3>
-              <p className="max-w-[265px] font-[family-name:var(--font-poppins)] text-[14px] font-light leading-6 text-black">
-                {item.description}
+              <p className="text-[15px] font-light leading-7 text-jv-text">
+                {copy[item.id].description}
               </p>
-            </li>
+            </motion.li>
           ))}
         </ul>
       </div>

@@ -11,14 +11,12 @@ export const metadata: Metadata = {
 };
 
 /**
- * Why Choose Us — feature icons + request-a-callback form.
+ * Why Choose Us — feature tiles + request-a-callback form.
  */
 export default function WhyChooseUsPage() {
   return (
     <SiteShell>
-      <div className="pt-6">
-        <FeaturesSection items={FEATURES} backgroundClassName="bg-white" />
-      </div>
+      <FeaturesSection items={FEATURES} />
       <CallbackForm />
     </SiteShell>
   );
