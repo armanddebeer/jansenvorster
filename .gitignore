@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Keep example env tracked; ignore all other .env files
+.env*
+!.env.example
